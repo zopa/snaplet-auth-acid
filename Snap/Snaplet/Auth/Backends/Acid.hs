@@ -6,10 +6,7 @@
 {-# LANGUAGE StandaloneDeriving #-}
 {-# LANGUAGE TemplateHaskell #-}
 
-module Snap.Snaplet.Auth.Backends.Acid
-         ( initAcidAuthManager
-         , getAllLogins
-         ) where
+module Snap.Snaplet.Auth.Backends.Acid where
 
 import           Control.Error
 import           Control.Exception hiding (Handler)
